@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik:wght@300&display=swap');
+
+.{
+    box-sizing: border-box
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px
+
+}
+
+body{
+    background-color: #f4f3ee;
+}
+
+.header{
+    background-color:#eddcd2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 100px;
+    width: auto;
+    transition: all 0.3;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 900;
+    color: #e0afa0;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: white;
+}
+
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #e26d5c ;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+.header .btn button:hover{
+    background-color:#C8B6FF ;
+    color: #ddbea9;
+    transform: scale(1.1);
+}
